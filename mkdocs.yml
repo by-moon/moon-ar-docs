@@ -1,0 +1,75 @@
+site_name: Technical Documentation
+site_description: Developer documentation for Moon AR glasses platform
+site_author: Moon Technologies
+site_url: https://yourusername.github.io/moon-ar-docs/
+
+theme:
+  name: material
+  logo: assets/moon-logo-white.png
+  palette:
+    # Dark theme as specified in requirements
+    - scheme: slate
+      primary: black
+      accent: white
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: black
+      accent: grey
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+plugins:
+  - search
+  - awesome-pages
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Environment Setup: getting-started/environment-setup.md
+    - Device Connection: getting-started/device-connection.md
+    - First Project: getting-started/first-project.md
+    - Basic Testing: getting-started/basic-testing.md
+  - Platform Overview:
+    - Hardware Specifications: platform-overview/hardware.md
+    - System Architecture: platform-overview/architecture.md
+    - Input System: platform-overview/input-system.md
+    - Resource Management: platform-overview/resource-management.md
+  - Unity Development:
+    - Project Configuration: unity-development/project-config.md
+    - UI Design Guidelines: unity-development/ui-design.md
+    - Input Handling: unity-development/input-handling.md
+    - Android Integration: unity-development/android-integration.md
+  - Android SDK:
+    - Plugin Framework: android-sdk/plugin-framework.md
+    - Camera API: android-sdk/camera-api.md
+    - System Services: android-sdk/system-services.md
+    - Permissions: android-sdk/permissions.md
+  - Deployment:
+    - Testing Strategy: deployment/testing.md
+    - APK Packaging: deployment/packaging.md
+    - Debugging Tools: deployment/debugging.md
+    - Performance: deployment/performance.md
+  - Examples:
+    - Unity UI Demo: examples/unity-ui-demo.md
+    - Camera Plugin: examples/camera-plugin.md
+    - Troubleshooting: examples/troubleshooting.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
+
