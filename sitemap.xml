@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://by-moon.github.io/moon-ar-docs/</loc>
+         <lastmod>2025-07-30</lastmod>
+    </url>
+    <url>
+         <loc>https://by-moon.github.io/moon-ar-docs/getting-started/environment-setup/</loc>
+         <lastmod>2025-07-30</lastmod>
+    </url>
+    <url>
+         <loc>https://by-moon.github.io/moon-ar-docs/platform-overview/hardware/</loc>
+         <lastmod>2025-07-30</lastmod>
+    </url>
+    <url>
+         <loc>https://by-moon.github.io/moon-ar-docs/unity-development/project-config/</loc>
+         <lastmod>2025-07-30</lastmod>
+    </url>
+</urlset>
