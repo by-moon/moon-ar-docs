@@ -1,7 +1,7 @@
 site_name: Technical Documentation
 site_description: Developer documentation for Moon AR glasses platform
 site_author: Moon Technologies
-site_url: https://yourusername.github.io/moon-ar-docs/
+site_url: https://by-moon.github.io/moon-ar-docs/
 
 theme:
   name: material
